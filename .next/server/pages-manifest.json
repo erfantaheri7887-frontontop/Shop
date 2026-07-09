@@ -1,8 +1,17 @@
 {
+  "/about": "pages/about.html",
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/articles/[shortName]": "pages/articles/[shortName].html",
+  "/articles": "pages/articles.html",
+  "/courses/[x]": "pages/courses/[x].html",
+  "/courses": "pages/courses.html",
+  "/": "pages/index.html",
+  "/mini-react": "pages/mini-react.html",
+  "/users/courses": "pages/users/courses.html",
+  "/users/dashboard/articles": "pages/users/dashboard/articles.html",
+  "/users": "pages/users.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/courses/[x]": "pages/courses/[x].js",
-  "/courses": "pages/courses.js"
+  "/404": "pages/404.html"
 }
