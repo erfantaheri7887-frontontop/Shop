@@ -18,7 +18,7 @@ function Index() {
 
       <ul>
         {x.map((y) => (
-          <li>
+          <li key={y.id}>
             <Link href={`/courses/${y.shortname}`}>{y.title}</Link>
           </li>
         ))}
